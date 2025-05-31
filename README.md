@@ -43,11 +43,9 @@ This project contains a pipeline for generating and evaluating legal arguments i
 
 - Python 3.8+
 - Required Python packages:
-  - autogen
   - pandas
   - numpy
   - scipy
-  - sqlite3
   - groq (optional)
   - openai
 
