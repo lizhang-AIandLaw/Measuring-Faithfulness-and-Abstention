@@ -166,7 +166,6 @@ The `score_calculation.py` module evaluates the accuracy of factor identificatio
 
 ## Output Files
 
-- `*_responses_*.db`: SQLite database containing raw responses
 - `messages_*.csv`: CSV file with messages from the database
 - `extracted_*.csv`: Extracted arguments and distilled factors
 - `comparison_*.md`, `factor_report_*.md`: Markdown reports with results
@@ -189,14 +188,6 @@ The pipeline supports two types of models:
 
 Notes on model usage:
 - Argument generation can use any of the above models (configurable)
-
-## API Keys
-
-API keys are managed in the agent scripts:
-- OpenAI API key for GPT models
-- Groq API key for Llama, Qwen, and DeepSeek models
-
-If you plan to use these scripts, replace the API keys in the code with your own.
 
 # Legal Scenario Generator
 
