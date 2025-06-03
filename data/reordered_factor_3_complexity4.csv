@@ -1,0 +1,65 @@
+Scenario
+"
+Input Scenario 
+	F14 Restricted-materials-used (P),
+	F23 Waiver-of-confidentiality (D),
+	F24 Info-obtainable-elsewhere (D)
+
+TSC 1
+outcome Defendant
+	F2 Bribe-employee (P),
+	F14 Restricted-materials-used (P),
+	F23 Waiver-of-confidentiality (D)
+
+TSC 2
+outcome Plaintiff
+	F6 Security-measures (P),
+	F14 Restricted-materials-used (P),
+	F23 Waiver-of-confidentiality (D),
+	F24 Info-obtainable-elsewhere (D)
+"
+"
+Input Scenario 
+	F5 Agreement-not-specific (D),
+	F15 Unique-product (P),
+	F17 Info-independently-generated (D),
+	F25 Info-reverse-engineered (D),
+	F27 Disclosure-in-public-forum (D)
+
+TSC 1
+outcome Defendant
+	F5 Agreement-not-specific (D),
+	F17 Info-independently-generated (D),
+	F18 Identical-products (P),
+	F25 Info-reverse-engineered (D),
+	F27 Disclosure-in-public-forum (D)
+
+TSC 2
+outcome Plaintiff
+	F5 Agreement-not-specific (D),
+	F11 Vertical-knowledge (D),
+	F15 Unique-product (P),
+	F17 Info-independently-generated (D),
+	F18 Identical-products (P)
+"
+"
+Input Scenario 
+	F5 Agreement-not-specific (D),
+	F11 Vertical-knowledge (D),
+	F18 Identical-products (P),
+	F21 Knew-info-confidential (P)
+
+TSC 1
+outcome Defendant
+	F5 Agreement-not-specific (D),
+	F8 Competitive-advantage (P),
+	F11 Vertical-knowledge (D),
+	F18 Identical-products (P)
+
+TSC 2
+outcome Plaintiff
+	F6 Security-measures (P),
+	F16 Info-reverse-engineerable (D),
+	F18 Identical-products (P),
+	F21 Knew-info-confidential (P)
+" 
